@@ -1,5 +1,5 @@
 const std = @import("std");
-
+const stdio_h = @cImport(@cInclude("stdio.h"));
 pub fn main() void {
     var A: f32 = 0;
     var B: f32 = 0;
