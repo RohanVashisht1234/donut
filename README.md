@@ -6,9 +6,9 @@
                     ("std");pub fn main()void{
                 var A: f32=0 ;var B :f32 =0;var i:
             f32 =undefined;var j: f32 = undefined;var
-            k:i32 =undefined;var z:[1760]f32=undefined;var
+          k:i32 =undefined;var z:[1760]f32=undefined;var
         b:[1760]u8=undefined;std.debug.print("\x1b[2J",.{}
-        );while(true){@memset(&z,0);@memset(&b,32); j=0;while
+      );while(true){@memset(&z,0);@memset(&b,32); j=0;while
     (j<6.28):(j+=0.07){i=0;while(i < 6.28) : (i+=0.02){const 
    c: f32 = std.math.sin(i);const d:f32=std.math.cos(j);const
    e:f32=std.math.sin(A);               const f: f32=std.math.
