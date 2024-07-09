@@ -10,12 +10,12 @@
    e:f32=std.math.sin(A);               const f: f32=std.math.
   sin(j);const  g: f32=                   std.math.cos(A);const
   h:f32 = d+2;const D:                     f32=1/(c * h*e + f*g
- + 5);const l:f32=std                        .math.cos(i) ;const
- m:f32= std.math.cos                        (B);const n:f32=std 
- .math.sin(B) ;const                        t:f32=((c * h)*g)-(
+ + 5);const l:f32=std.                       math.cos(i) ;const
+ m:f32= std.math.cos(                        B);const n:f32=std 
+ .math.sin(B) ; const                       t:f32=((c * h)*g)-(
  f * e);const x : i32                      =@intFromFloat(40+30
-  * D*(l*h*m-t*n));const                   y:i32=@intFromFloat(
-  12 + 15*D*(l * h*n + t                 * m)) ; const o : i32
+ * D*(l*h*m-t*n));const                   y: i32=@intFromFloat(
+  12 + 15*D*(l * h * n + t               * m)) ; const o : i32
    =x+80*y;const N:i32=@intFromFloat(8*((f*e-c*d*g)*m-c*d * e
     - f*g-l*d*n));const O=@as(u32 ,@intCast(o)); if(22>y and 
      y>0 and x>0 and 80 > x and D>z[O]){z[O]=D;if(N>0){b[O]=
