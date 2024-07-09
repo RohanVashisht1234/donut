@@ -20,9 +20,9 @@
     - f*g-l*d*n));const O=@as(u32 ,@intCast(o)); if(22>y and 
      y>0 and x>0 and 80 > x and D>z[O]){z[O]=D;if(N>0){b[O]=
       ".,-~:;=!*#$@" [@as(u32, @intCast( N))];} else{b[O] =
-	".,-~:;=!*#$@"[0];}}}}std.debug.print("\x1b[H",.{}
-	 );k=0;while(k<1761):(k+=1){if(@rem(k,80)!=0){std
-	   .debug.print("{c}",.{b[@as(u32, @intCast(k))
-	    ]});}else{std.debug.print("{c}",.{10});}A
-	         += 4.0e-5;B+=2.0e-5;}std.time.
-		        sleep(30000000) ;}}
+       ".,-~:;=!*#$@"[0];} }}}std.debug.print("\x1b[H",.{}
+    	 );k=0;while(k<1761):(k+=1){if(@rem(k,80)!=0){std
+         .debug.print( "{c}", .{b[@as(u32, @intCast(k))
+    	    ]});}else{std.debug.print("{c}",.{10});}A
+                 += 4.0e-5;B+=2.0e-5;}std.time.
+                       sleep(30000000) ;}}
